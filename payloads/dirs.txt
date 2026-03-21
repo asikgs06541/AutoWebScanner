@@ -1,0 +1,12 @@
+admin
+login
+backup
+config
+uploads
+images
+js
+css
+api
+.git
+.env
+phpinfo.php
