@@ -47,27 +47,27 @@ AutoWebScanner 是一个基于 Python 开发的自动化 Web 漏洞扫描工具�
 AutoWebScanner/
 ├── autowebpt.py              # 主程序入口
 │
-├── core/                    # 核心模块
-│   ├── crawler.py           # 爬虫
-│   ├── engine.py            # 扫描引擎
-│   └── reporter.py          # 报告生成
+├── core/
+│   ├── crawler.py
+│   ├── engine.py
+│   └── reporter.py
 │
-├── modules/                 # 功能模块
-│   ├── portscan.py          # 端口扫描
-│   ├── dirscan.py           # 目录扫描
-│   └── fingerprint.py       # 指纹识别
+├── modules/
+│   ├── portscan.py
+│   ├── dirscan.py
+│   └── fingerprint.py
 │
-├── plugins/                 # 漏洞检测插件
-│   ├── sqli.py              # SQL注入检测
-│   ├── xss.py               # XSS检测
-│   └── formscan.py          # 表单扫描
+├── plugins/
+│   ├── sqli.py
+│   ├── xss.py
+│   └── formscan.py
 │
-├── payloads/                # payload字典
+├── payloads/
 │   ├── sqli.txt
 │   ├── xss.txt
 │   └── dirs.txt
 │
-├── report/                  # 扫描报告输出
+├── report/
 │   ├── report.html
 │   └── report.json
 │
